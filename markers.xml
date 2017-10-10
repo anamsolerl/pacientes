@@ -1,0 +1,64 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head><style id="xml-viewer-style">/* Copyright 2014 The Chromium Authors. All rights reserved.
+ * Use of this source code is governed by a BSD-style license that can be
+ * found in the LICENSE file.
+ */
+
+div.header {
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    margin: 10px;
+}
+
+div.collapsible &gt; div.hidden {
+    display:none;
+}
+
+.pretty-print {
+    margin-top: 1em;
+    margin-left: 20px;
+    font-family: monospace;
+    font-size: 13px;
+}
+
+#webkit-xml-viewer-source-xml {
+    display: none;
+}
+
+.collapsible-content {
+    margin-left: 1em;
+}
+.comment {
+    white-space: pre;
+}
+
+.button {
+    -webkit-user-select: none;
+    cursor: pointer;
+    display: inline-block;
+    margin-left: -10px;
+    width: 10px;
+    background-repeat: no-repeat;
+    background-position: left top;
+    vertical-align: bottom;
+}
+
+.collapse-button {
+    background: url("data:image/svg+xml,&lt;svg xmlns='http://www.w3.org/2000/svg' fill='#909090' width='10' height='10'&gt;&lt;path d='M0 0 L8 0 L4 7 Z'/&gt;&lt;/svg&gt;");
+    height: 10px;
+}
+
+.expand-button {
+    background: url("data:image/svg+xml,&lt;svg xmlns='http://www.w3.org/2000/svg' fill='#909090' width='10' height='10'&gt;&lt;path d='M0 0 L0 8 L7 4 Z'/&gt;&lt;/svg&gt;");
+    height: 10px;
+}
+</style></head><body><div id="webkit-xml-viewer-source-xml"><markers xmlns="">
+    <marker id="1" name="Billy Kwong" address="1/28 Macleay Street, Elizabeth Bay, NSW" lat="-33.869843" lng="-151.225769" type="restaurant"/>
+    <marker id="2" name="Love.Fish" address="580 Darling Street, Rozelle, NSW" lat="-33.861034" lng="151.171936" type="restaurant"/>
+    <marker id="3" name="Young Henrys" address="76 Wilford Street, Newtown, NSW" lat="-33.898113" lng="151.174469" type="bar"/>
+    <marker id="4" name="Hunter Gatherer" address="Greenwood Plaza, 36 Blue St, North Sydney NSW" lat="-33.840282" lng="151.207474" type="bar"/>
+    <marker id="5" name="The Potting Shed" address="7A, 2 Huntley Street, Alexandria, NSW" lat="-33.910751" lng="151.194168" type="bar"/>
+    <marker id="6" name="Nomad" address="16 Foster Street, Surry Hills, NSW" lat="-33.879917" lng="151.210449" type="bar"/>
+    <marker id="7" name="Three Blue Ducks" address="43 Macpherson Street, Bronte, NSW" lat="-33.906357" lng="151.263763" type="restaurant"/>
+    <marker id="8" name="Single Origin Roasters" address="60-64 Reservoir Street, Surry Hills, NSW" lat="-33.881123" lng="151.209656" type="restaurant"/>
+    <marker id="9" name="Red Lantern" address="60 Riley Street, Darlinghurst, NSW" lat="-33.874737" lng="151.215530" type="restaurant"/>
+</markers></div><div class="header"><span>This XML file does not appear to have any style information associated with it. The document tree is shown below.</span><br /></div><div class="pretty-print"><div class="collapsible" id="collapsible0"><div class="expanded"><div class="line"><span class="button collapse-button"></span><span class="html-tag">&lt;markers&gt;</span></div><div class="collapsible-content"><span class="text"></span><div class="line"><span class="html-tag">&lt;marker<span class="html-attribute"> <span class="html-attribute-name">id</span>="<span class="html-attribute-value">1</span>"</span><span class="html-attribute"> <span class="html-attribute-name">name</span>="<span class="html-attribute-value">Billy Kwong</span>"</span><span class="html-attribute"> <span class="html-attribute-name">address</span>="<span class="html-attribute-value">1/28 Macleay Street, Elizabeth Bay, NSW</span>"</span><span class="html-attribute"> <span class="html-attribute-name">lat</span>="<span class="html-attribute-value">-33.869843</span>"</span><span class="html-attribute"> <span class="html-attribute-name">lng</span>="<span class="html-attribute-value">-151.225769</span>"</span><span class="html-attribute"> <span class="html-attribute-name">type</span>="<span class="html-attribute-value">restaurant</span>"</span>/&gt;</span></div><span class="text"></span><div class="line"><span class="html-tag">&lt;marker<span class="html-attribute"> <span class="html-attribute-name">id</span>="<span class="html-attribute-value">2</span>"</span><span class="html-attribute"> <span class="html-attribute-name">name</span>="<span class="html-attribute-value">Love.Fish</span>"</span><span class="html-attribute"> <span class="html-attribute-name">address</span>="<span class="html-attribute-value">580 Darling Street, Rozelle, NSW</span>"</span><span class="html-attribute"> <span class="html-attribute-name">lat</span>="<span class="html-attribute-value">-33.861034</span>"</span><span class="html-attribute"> <span class="html-attribute-name">lng</span>="<span class="html-attribute-value">151.171936</span>"</span><span class="html-attribute"> <span class="html-attribute-name">type</span>="<span class="html-attribute-value">restaurant</span>"</span>/&gt;</span></div><span class="text"></span><div class="line"><span class="html-tag">&lt;marker<span class="html-attribute"> <span class="html-attribute-name">id</span>="<span class="html-attribute-value">3</span>"</span><span class="html-attribute"> <span class="html-attribute-name">name</span>="<span class="html-attribute-value">Young Henrys</span>"</span><span class="html-attribute"> <span class="html-attribute-name">address</span>="<span class="html-attribute-value">76 Wilford Street, Newtown, NSW</span>"</span><span class="html-attribute"> <span class="html-attribute-name">lat</span>="<span class="html-attribute-value">-33.898113</span>"</span><span class="html-attribute"> <span class="html-attribute-name">lng</span>="<span class="html-attribute-value">151.174469</span>"</span><span class="html-attribute"> <span class="html-attribute-name">type</span>="<span class="html-attribute-value">bar</span>"</span>/&gt;</span></div><span class="text"></span><div class="line"><span class="html-tag">&lt;marker<span class="html-attribute"> <span class="html-attribute-name">id</span>="<span class="html-attribute-value">4</span>"</span><span class="html-attribute"> <span class="html-attribute-name">name</span>="<span class="html-attribute-value">Hunter Gatherer</span>"</span><span class="html-attribute"> <span class="html-attribute-name">address</span>="<span class="html-attribute-value">Greenwood Plaza, 36 Blue St, North Sydney NSW</span>"</span><span class="html-attribute"> <span class="html-attribute-name">lat</span>="<span class="html-attribute-value">-33.840282</span>"</span><span class="html-attribute"> <span class="html-attribute-name">lng</span>="<span class="html-attribute-value">151.207474</span>"</span><span class="html-attribute"> <span class="html-attribute-name">type</span>="<span class="html-attribute-value">bar</span>"</span>/&gt;</span></div><span class="text"></span><div class="line"><span class="html-tag">&lt;marker<span class="html-attribute"> <span class="html-attribute-name">id</span>="<span class="html-attribute-value">5</span>"</span><span class="html-attribute"> <span class="html-attribute-name">name</span>="<span class="html-attribute-value">The Potting Shed</span>"</span><span class="html-attribute"> <span class="html-attribute-name">address</span>="<span class="html-attribute-value">7A, 2 Huntley Street, Alexandria, NSW</span>"</span><span class="html-attribute"> <span class="html-attribute-name">lat</span>="<span class="html-attribute-value">-33.910751</span>"</span><span class="html-attribute"> <span class="html-attribute-name">lng</span>="<span class="html-attribute-value">151.194168</span>"</span><span class="html-attribute"> <span class="html-attribute-name">type</span>="<span class="html-attribute-value">bar</span>"</span>/&gt;</span></div><span class="text"></span><div class="line"><span class="html-tag">&lt;marker<span class="html-attribute"> <span class="html-attribute-name">id</span>="<span class="html-attribute-value">6</span>"</span><span class="html-attribute"> <span class="html-attribute-name">name</span>="<span class="html-attribute-value">Nomad</span>"</span><span class="html-attribute"> <span class="html-attribute-name">address</span>="<span class="html-attribute-value">16 Foster Street, Surry Hills, NSW</span>"</span><span class="html-attribute"> <span class="html-attribute-name">lat</span>="<span class="html-attribute-value">-33.879917</span>"</span><span class="html-attribute"> <span class="html-attribute-name">lng</span>="<span class="html-attribute-value">151.210449</span>"</span><span class="html-attribute"> <span class="html-attribute-name">type</span>="<span class="html-attribute-value">bar</span>"</span>/&gt;</span></div><span class="text"></span><div class="line"><span class="html-tag">&lt;marker<span class="html-attribute"> <span class="html-attribute-name">id</span>="<span class="html-attribute-value">7</span>"</span><span class="html-attribute"> <span class="html-attribute-name">name</span>="<span class="html-attribute-value">Three Blue Ducks</span>"</span><span class="html-attribute"> <span class="html-attribute-name">address</span>="<span class="html-attribute-value">43 Macpherson Street, Bronte, NSW</span>"</span><span class="html-attribute"> <span class="html-attribute-name">lat</span>="<span class="html-attribute-value">-33.906357</span>"</span><span class="html-attribute"> <span class="html-attribute-name">lng</span>="<span class="html-attribute-value">151.263763</span>"</span><span class="html-attribute"> <span class="html-attribute-name">type</span>="<span class="html-attribute-value">restaurant</span>"</span>/&gt;</span></div><span class="text"></span><div class="line"><span class="html-tag">&lt;marker<span class="html-attribute"> <span class="html-attribute-name">id</span>="<span class="html-attribute-value">8</span>"</span><span class="html-attribute"> <span class="html-attribute-name">name</span>="<span class="html-attribute-value">Single Origin Roasters</span>"</span><span class="html-attribute"> <span class="html-attribute-name">address</span>="<span class="html-attribute-value">60-64 Reservoir Street, Surry Hills, NSW</span>"</span><span class="html-attribute"> <span class="html-attribute-name">lat</span>="<span class="html-attribute-value">-33.881123</span>"</span><span class="html-attribute"> <span class="html-attribute-name">lng</span>="<span class="html-attribute-value">151.209656</span>"</span><span class="html-attribute"> <span class="html-attribute-name">type</span>="<span class="html-attribute-value">restaurant</span>"</span>/&gt;</span></div><span class="text"></span><div class="line"><span class="html-tag">&lt;marker<span class="html-attribute"> <span class="html-attribute-name">id</span>="<span class="html-attribute-value">9</span>"</span><span class="html-attribute"> <span class="html-attribute-name">name</span>="<span class="html-attribute-value">Red Lantern</span>"</span><span class="html-attribute"> <span class="html-attribute-name">address</span>="<span class="html-attribute-value">60 Riley Street, Darlinghurst, NSW</span>"</span><span class="html-attribute"> <span class="html-attribute-name">lat</span>="<span class="html-attribute-value">-33.874737</span>"</span><span class="html-attribute"> <span class="html-attribute-name">lng</span>="<span class="html-attribute-value">151.215530</span>"</span><span class="html-attribute"> <span class="html-attribute-name">type</span>="<span class="html-attribute-value">restaurant</span>"</span>/&gt;</span></div><span class="text"></span></div><div class="line"><span class="html-tag">&lt;/markers&gt;</span></div></div><div class="collapsed hidden"><div class="line"><span class="button expand-button"></span><span class="html-tag">&lt;markers&gt;</span><span class="text">...</span><span class="html-tag">&lt;/markers&gt;</span></div></div></div></div></body></html>
